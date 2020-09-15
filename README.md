@@ -8,13 +8,13 @@ int main(){
     a = 0;
     for (i = 1; i < 5; i++)
     {
-        cout<<"Enter luckynumber "<<i<<" (1-20) : ";
+        cout<<"Enter lucky number "<<i<<" (1-20) : ";
         cin>>a;
         if(a == round){
             cout<<"Lucky!!!!\n";
             cout<<"You got 1,000,000 bath\n";
             break;
-        }else cout<<"This is worng number\n";
+        }else cout<<"This is wrong number\n";
     }
   return 0;  
 }
